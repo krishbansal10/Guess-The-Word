@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Guess The Word</h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <p class="msg">All the Best!</p>
+            <div class="inputs"></div>
+            <div class="details">
+                <p class="hint"><i>Hint:&nbsp;</i> <span></span></p>
+                <p class="guesses"><i>Remaining Guesses:&nbsp;</i> <span>8</span></p>
+                <p class="wrong"><i>Wrong Letters:&nbsp;</i> <span></span></p>
+            </div>
+            <div class="buttons">
+                <button class="quit">Quit</button>
+                <button class="reset">Restart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="confetti.js"></script>
+    <script src="words.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
